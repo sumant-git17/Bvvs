@@ -18,3 +18,16 @@ print(stored_data)
 numbers = [1,2,3,4,5]
 doubled= list[map(lambda x:x*2,numbers)]
 print(doubled)
+
+numbers=[10,15,20,25,30]
+odd=list[filter(lambda x:x%2!0,numbers)]
+print(odd)
+
+operation={
+    'add':lambda x,y:x+y,
+    'sub':lambda x,y:x-y,
+    'mul':lambda x,y:x*y,
+    'div':lambda x,y:x/y,
+
+
+}
